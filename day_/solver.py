@@ -2,6 +2,7 @@ import re
 
 # Load the file
 input_file = open('dayX/input_1.txt', 'r')
+# input_file = open('dayX/input_short.txt', 'r')
 lines = input_file.readlines()
 
 result = 0
