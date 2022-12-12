@@ -35,7 +35,7 @@ class Monkey :
 
             new_val = new_val % lcm
 
-            # Throw to the ext monkey
+            # Throw to the next monkey.
             if new_val % self.divisible == 0:
                 monkeys[self.true_comp].items.append(new_val)
             else:
